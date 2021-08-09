@@ -1,0 +1,21 @@
+ 
+.ButtonApply button {
+  margin-top: 20px;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: var(--cerulean-blue);
+  border: none;
+  font-family: Lexend;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--white);
+}
+
+.ButtonApply__wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

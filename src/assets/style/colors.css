@@ -1,0 +1,42 @@
+:root {
+  --cerulean-blue: #0171e3;
+  --primary: #71b738;
+  --acent: #e8451e;
+  --dark-primery: #63a031;
+  --dark-grey: #a5abb2;
+  --light-grey: #f5f6fa;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+.cerulean-blue {
+  color: #0171e3;
+}
+
+.primery {
+  color: #71b738;
+}
+
+.acent {
+  color: #e8451e;
+}
+
+.dark-primery {
+  color: #63a031;
+}
+
+.dark-grey {
+  color: #a5abb2;
+}
+
+.light-grey {
+  color: #f5f6fa;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.black {
+  color: #000000;
+}

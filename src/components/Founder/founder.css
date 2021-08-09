@@ -1,0 +1,100 @@
+.founder {
+    margin-top: 120px;
+}
+
+.founder__row {
+    align-items: flex-start;
+}
+
+.founder p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.founder .dark-primery {
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.founder .lapki {
+    width: 100%;
+}
+
+.founder .video video::-webkit-media-controls {
+    opacity: 0.01;
+}
+
+.founder .video video::-webkit-media-controls:hover {
+    opacity: 1;
+}
+
+.founder__video-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.founder__text-inner {
+    position: relative;
+}
+
+.founder__text-inner::before,
+.founder__text-inner::after {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 8px;
+    height: 8px;
+    background-image: url(../../assets/img/lapki-black.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.founder__text-inner::before {
+    position: absolute;
+    top: -4px;
+    left: -12px;
+}
+
+@media (max-width: 990px) {
+    .founder__video-wrapper {
+        order: -1;
+        margin-bottom: 30px;
+    }
+
+    .founder__lapki-wrapper {
+        display: none;
+    }
+
+    .founder__text-wrapper {
+        max-width: 100% !important;
+        flex: none !important;
+    }
+}
+
+@media (max-width: 812px) {
+    .founder {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 575px) {
+    .founder__text-inner::before {
+        top: -7px;
+        left: -7px;
+    }
+
+    .founder__name, .founder__prof {
+        text-align: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .founder {
+        margin-top: 60px;
+    }
+
+    .founder .lapki {
+        width: 30px;
+    }
+}

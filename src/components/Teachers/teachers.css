@@ -1,0 +1,28 @@
+.teachers {
+  margin-top: 100px;
+}
+
+.teachers h2 {
+  margin-bottom: 60px;
+}
+
+.teachers img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .teachers h2 {
+    margin-bottom: 30px;
+  }
+
+  .teachers__card {
+    max-width: 380px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .teachers__card:not(:first-child) {
+    margin-top: 45px;
+  }
+}

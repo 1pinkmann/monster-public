@@ -1,0 +1,38 @@
+ 
+.PhoneInput {
+  width: 100%;
+  margin-top: 25px;
+  height: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 10px 5px 8px 20px;
+  border-radius: 8px;
+  background-color: var(--light-grey);
+}
+
+.PhoneInputInput {
+  border: none;
+  width: 100%;
+  background: transparent;
+  font-size: 18px;
+  color: var(--black);
+}
+
+input[type=tel]:focus {
+  outline-width: 0 !important;
+}
+
+.PhoneInputCountry {
+  margin-right: 0 !important;
+}

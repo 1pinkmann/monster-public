@@ -1,0 +1,90 @@
+ 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+  text-align: center;
+  max-width: 500px;
+  height: auto;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  padding: 45px 50px;
+  border-radius: 30px;
+  background-color: var(--white);
+}
+
+.form h3 {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+
+.form-footer {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.form-footer-horizontal-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-footer-top-space-for-element {
+  margin-top: 35px;
+}
+
+.flex-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+@media(max-width:1024px) {
+  .form {
+    max-width: 100%;
+  }
+}
+
+@media(max-width:767px) {
+  .form {
+    max-width: 500px;
+  }
+
+  .form button {
+    width: 100%;
+  }
+}
+
+@media(max-width:375px) {
+  .form {
+    padding: 30px 25px;
+  }
+
+  .form input {
+    padding: 10px 10px 10px 10px;
+  }
+
+  .form input[type="tel"] {
+    padding: 10px 0px 10px 0px;
+  }
+}

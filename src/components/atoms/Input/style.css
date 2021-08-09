@@ -1,0 +1,57 @@
+ 
+.atom-input {
+  width: 100%;
+  height: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+  padding: 10px 28px 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f5f6fa;
+  font-size: 18px;
+  text-align: left;
+  color: var(--black);
+}
+
+.atom-input::-webkit-input-placeholder {
+  color: #a5abb2;
+}
+
+.atom-input::-moz-placeholder {
+  color: #a5abb2;
+}
+
+.atom-input:-ms-input-placeholder {
+  color: #a5abb2;
+}
+
+.atom-input::-ms-input-placeholder {
+  color: #a5abb2;
+}
+
+.atom-input::placeholder {
+  color: #a5abb2;
+}
+
+.atom-input:focus {
+  outline: 0;
+  border: 1.5px solid #71B738;
+  color: var(--black);
+}
+
+.atom-input__invalid {
+  border-bottom: 1px solid var(--acent);
+}
